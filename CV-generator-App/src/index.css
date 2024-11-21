@@ -1,0 +1,41 @@
+body,
+html {
+  margin: 0;
+}
+
+.mainDiv {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+.editor {
+  padding: 30px;
+  display: flex;
+  gap: 15px;
+  justify-items: center;
+}
+.editor form {
+  width: 270px;
+}
+.personalInfo {
+  grid-row: span 2;
+}
+
+.dates {
+  display: flex;
+  gap: 15px;
+}
+
+.endList {
+  display: flex;
+  flex-grow: 1;
+  padding: 5px 15px;
+}
+.endList div {
+  width: 100%;
+}
+.cvInfo{
+  padding-left: 0;
+}

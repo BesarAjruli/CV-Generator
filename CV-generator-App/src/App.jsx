@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Editor from "./Components/Form/finished";
 import Show from "./Components/Show/preview";
 

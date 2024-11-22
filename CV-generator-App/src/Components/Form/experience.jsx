@@ -3,7 +3,6 @@ import { useEffect } from "react";
 
 export default function Experience(props) {
   const { data, changes, addExperience, allExperiences, removeEx } = props;
-  console.log(removeEx)
 
   const [isChekced, setChecked] = useState(false);
   const [isDisabled, setButtonDissable] = useState(true);

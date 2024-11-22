@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 body,
 html {
   margin: 0;
+  font-family: "Lato", sans-serif;
 }
 
 .mainDiv {
@@ -13,6 +15,7 @@ ul {
 .editor {
   padding: 30px;
   display: flex;
+  flex-direction: column;
   gap: 15px;
   justify-items: center;
 }
@@ -36,6 +39,77 @@ ul {
 .endList div {
   width: 100%;
 }
-.cvInfo{
+.cvInfo {
   padding-left: 0;
+  width: 595px;
+  height: 842px;
+  border: 1px solid #333;
+  border-radius: 15px;
+  padding: 155.9px 134.65px 164.57px 134.65px;
+}
+.cvInfo > div {
+  height: 90px;
+  background-color: #d9d9d9;
+  color: #1a1f71;
+  place-content: center;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+.cvInfo h1 {
+  margin: 0;
+  height: fit-content;
+  text-align: center;
+  font-weight: 600;
+}
+.cvInfo h2{
+  margin-bottom: 30px;
+}
+
+.cvInfo > ul {
+  padding: 0;
+  margin: 40px 0;
+}
+
+.cvInfo li{
+  text-align: left;
+}
+
+.cvInfo > ul > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+.cvInfo p {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+.dwnldIcon{
+  position: absolute;
+  top: 50px;
+  right: 60px;
+}
+
+form > input {
+  background-color: #e9e9e9;
+  border-radius: 15px;
+  height: 20px;
+  border: 0;
+  padding: 5px 10px;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+form > input:focus{
+  outline: none;
+}
+
+form button {
+  width: 150px;
+  height: 35px;
+  border: 0;
+  border-radius: 15px;
+  background-color: #D9D9D9;
+  color: #4A4A4A;
 }
